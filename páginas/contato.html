@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Cadastro</title>
+    <link rel="stylesheet" href="../estilos/formulário.css">
+    <link rel="short icon" href="../imagens/bookstore_favicon.ico">
+</head>
+<body>
+    <header>
+        <figure>
+            <img src="../imagens/bookstore_icon.png" alt="Icon">
+        </figure>
+    </header>
+    <nav>
+        <ul>
+            <li><a href="index.html">Página Inicial</a></li>
+            <li><a href="https://www.darksidebooks.com.br/">Editora Darkside</a></li>
+            <li><a href="https://intrinseca.com.br/">Editora Intrinseca</a></li>
+            <li><a href="https://www.record.com.br/editoras/galera/">Editora Galera Record</a></li>
+        </ul>
+    </nav>
+    <main>
+        <section>
+            <form action="#" method="post" id="formulario">
+
+                <h2>Contato</h2>
+                <label for="nome">Nome</label>
+                <input type="text" name="nome" id="nome" required>
+
+                <label for="email">E-mail</label>
+                <input type="text" name="email" id="email" required>
+
+                <label for="gênero">Gênero Literário</label>
+                <select name="select" id="select">
+                    <option value="terror">Terror</option>
+                    <option value="fantasia">Fantasia</option>
+                    <option value="romance">Romance</option>
+                    <option value="suspense">Suspense</option>
+                    <option value="thriller">Thriller</option>
+                    <option value="infanto_juvenil">Infanto Juvenil</option>
+                </select>
+                
+                <label for="titulo">Título do Livro</label>
+                <input type="text" name="titulo" id="titulo" required>
+                <input type="submit" value="Enviar">
+            </form>
+        </section>
+    </main>
+    <footer>
+        Desenvolvido por Bruna Serra, 2024
+    </footer>
+</body>
+</html>
